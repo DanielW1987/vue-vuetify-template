@@ -1,6 +1,6 @@
 const env = process.env.VUE_APP_ENV;
 
-let envApiUrl = '';
+let envApiUrl: string;
 
 if (env === 'production') {
   envApiUrl = `https://${process.env.VUE_APP_DOMAIN_PROD}`;

@@ -17,7 +17,7 @@
               required
             ></v-text-field>
             <v-text-field
-              label="E-mail"
+              label="Email"
               type="email"
               v-model="email"
               v-validate="'required|email'"

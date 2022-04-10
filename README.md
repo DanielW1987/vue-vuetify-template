@@ -1,6 +1,12 @@
 ## Introduction
 
-...
+This repository is a template repository for projects based on Vue with Vuetify. It comes with:
+
+* [Vue v2](https://vuejs.org/)
+* [Vuetify v2](https://vuetifyjs.com/en/)
+* Connection to a template backend ([FastAPI Blueprint](https://github.com/DanielW1987/fast-api-blueprint) or [SpringBoot Blueprint](https://github.com/DanielW1987/spring-boot-blueprint))
+
+The template is based in large parts on the [Full Stack FastAPI and PostgreSQL - Base Project Generator](https://github.com/tiangolo/full-stack-fastapi-postgresql) by tiangolo.
 
 ## Prerequisites
 
@@ -21,12 +27,10 @@ In the project directory, you can run:
 npm install
 
 # start app in development mode
-npm start
+npm run serve
 ````
 
 Afterwards you can open [http://localhost:3000](http://localhost:3000) to view the app in the browser of your choice.
-
-The page will reload if you make edits. You will also see any lint errors in the console.
 
 ## Execute tests
 

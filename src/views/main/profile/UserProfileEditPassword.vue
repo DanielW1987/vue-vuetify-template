@@ -21,7 +21,9 @@
               data-vv-rules="required"
               v-validate="'required'"
               v-model="password1"
-              :error-messages="errors.first('password')">
+              :error-messages="errors.first('password')"
+              autocomplete="new-password"
+            >
             </v-text-field>
             <v-text-field
               type="password"
@@ -32,7 +34,9 @@
               data-vv-as="password"
               v-validate="'required|confirmed:password'"
               v-model="password2"
-              :error-messages="errors.first('password_confirmation')">
+              autocomplete="new-password"
+              :error-messages="errors.first('password_confirmation')"
+            >
             </v-text-field>
           </v-form>
         </template>

@@ -7,7 +7,7 @@
       <v-card-text>
         <template>
           <div class="my-3">
-            <div class="subheading secondary--text text--lighten-2">Username</div>
+            <div class="subheading secondary--text text--lighten-2">Email</div>
             <div
               class="title primary--text text--darken-2"
               v-if="user"
